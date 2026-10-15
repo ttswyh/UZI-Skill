@@ -1,7 +1,7 @@
-# 主动基金 / 基金经理？请看 [基佬skills](https://github.com/wbh604/jilao-skills)
 
-**UZI-Skill 负责个股深度分析；基佬skills 负责主动基金和基金经理行为鉴定。**  
-它用真实公开数据逐笔验证基金经理的买卖行为，评的是行为，不是净值。
+
+**UZI-Skill 负责个股深度分析。**  
+
 ---
 
 <div align="center">
