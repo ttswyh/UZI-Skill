@@ -1,15 +1,14 @@
 # 主动基金 / 基金经理？请看 [基佬skills](https://github.com/wbh604/jilao-skills)
 
 **UZI-Skill 负责个股深度分析；基佬skills 负责主动基金和基金经理行为鉴定。**  
-它用真实公开数据逐笔验证基金经理的买卖行为，评的是行为，不是净值。在线示例：[兴全合宜 163417 · 谢治宇行为报告](https://wbh604.github.io/jilao-skills/assets/fund-163417.html)
-
+它用真实公开数据逐笔验证基金经理的买卖行为，评的是行为，不是净值。
 ---
 
 <div align="center">
 
 # 游资（UZI）Skills
 
-*"66 个投资大佬帮你看盘，巴菲特、赵老哥和股海贼王终于坐在了同一张桌子上。"*
+*"66 个投资大佬帮你看盘"*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://python.org)
@@ -66,26 +65,15 @@ A 股 / 港股 / 美股 · 个股深度分析引擎 · **66 位评审团 × 9 �
 ---
 
 
-## 💬 没有群！虽然我也不知道为什么交流群也没涉及什么东西会被封号。。。
-
-我再说明一下，没有群，也不拉群。
-
-<p align="center">
-  <img src="docs/screenshots/8501bb4280cc56c809c0a19619e49c82.jpg" width="300" alt="拉群会被封，有想法的直接加我吧，只针对插件本身或者其他有趣的项目和量化，不聊个股" />
-</p>
-
-> 添加人过多，请备注好事宜，我才知道出什么问题了。。
 
 ---
 
 ---
-## 鸣谢
-学AI，上L站！
-感谢 [Linux.do](https://linux.do/) 社区支持。
+
 
 ## 这是啥
 
-一句话：输入一只股票，Claude 变成你的私人分析师，跑完 22 个维度的数据、调 22 种华尔街分析模型、让 66 个投资风格完全不同的大佬各自打分，最后吐出一份 600KB 的 Bloomberg 风格报告。
+一句话：输入一只股票，Claude/codex 变成你的私人分析师，跑完 22 个维度的数据、调 22 种华尔街分析模型、让 66 个投资风格完全不同的大佬各自打分，最后吐出一份 600KB 的 Bloomberg 风格报告。
 
 ```
 /stock-deep-analyzer:analyze-stock 国盾量子
@@ -97,15 +85,6 @@ A 股 / 港股 / 美股 · 个股深度分析引擎 · **66 位评审团 × 9 �
 - **一张微信群战报** — 1920×1080
 - **一段话摘要** — 复制粘贴就能发群里
 
-## 为什么做这个
-
-之前看一只票的流程：东方财富翻基本面 → 同花顺看 K 线 → 雪球刷大 V 说了啥 → 研报系统找卖方观点 → Excel 算个 DCF → 结果买进去还是亏。
-
-这些活儿本质上就是"搜集信息 → 多角度分析 → 给个结论"，让 AI 全干了不行吗？
-
-市面上看了一圈，要么是输出三段废话的 GPT wrapper，要么是用不起的机构终端。Anthropic 出了个 [financial-services-plugins](https://github.com/anthropics/financial-services-plugins)，方法论很好（DCF / Comps / LBO 那套），但完全是美股视角 + 全要付费数据源。
-
-所以自己搓了一个。**全免费数据源，零 API key，A 股直接能跑。**
 
 ---
 
